@@ -4,9 +4,9 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		MyCalculator calculator = new MyCalculator();
-		calculator.calAdd(10,5, new CallAdd());
-		calculator.calSub(10,5, new CallSub());
-		calculator.calMul(10,5, new CallMul());
-		calculator.calDiv(10,5, new CallDiv());
+        calculator.calculate(10,5, new CalAdd());
+		calculator.calculate(10,5, new CalSub());
+		calculator.calculate(10,5, new CalMul());
+		calculator.calculate(10,5, new CalDiv());
 	}
 }
